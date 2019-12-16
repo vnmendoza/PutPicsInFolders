@@ -13,7 +13,6 @@ folderNames = []
 for item in onlyfiles:
     folderNames.append(item.split('-')[0])
    
-print("`````````````````````````")
 for file in folderNames:
     picFolder = os.path.join(dir, file)
     if not os.path.exists(picFolder):
